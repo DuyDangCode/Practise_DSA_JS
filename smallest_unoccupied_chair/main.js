@@ -8,7 +8,6 @@ var smallestChair = function (times, targetFriend) {
     times[i].push(-1)
     times[i].push(i)
   }
-
   times.sort((a, b) => a[0] - b[0])
   // console.log(times)
   times[0][2] = 0
